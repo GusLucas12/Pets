@@ -6,18 +6,17 @@ function Header(){
 <header>
  <div className={styles.interface}>
                 <div className={styles.img}>
-                    <h1>PETS<span className={styles.rainbow_text}>Club</span></h1>
-
+                   <h1><Link to="/">PETS<span className={styles.rainbow_text}>Club</span></Link>
+</h1> 
          
                 </div> 
 
                 <nav className={styles.navHome}>
                      <ul className={styles.nav_links}>
 
-                         <li><Link to="/quemSou">PLACE HOLDER</Link></li>
-                        <li><Link to="/projetos">PLACE HOLDER</Link></li>
-                        <li><Link to="/clientes">PLACE HOLDER</Link></li>
-                        <li> <Link to="/contato">PLACE HOLDER</Link></li>
+                         <li><Link to="/pet">Pets</Link></li>
+                        <li><Link to="/servico">Servico</Link></li>
+                       
                     </ul>
                 </nav>
             
